@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Build
-        uses: dabao1955/kernel_build_action@main
+        uses: tungnt017/kernel_build_action@main
         with:
           kernel-url: https://github.com/PixelExperience-Devices/kernel_xiaomi_lisa
           kernel-branch: thirteen
