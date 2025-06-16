@@ -215,7 +215,7 @@ runs:
                  export NEED_GCC=1
              fi
          else
-             "SU" apt install clang lld binutils-aarch64-linux-gnu binutils-arm-linux-gnuabeihf -y
+             "SU" apt install clang lld binutils-aarch64-linux-gnu  -y
          fi
          echo "::endgroup::"
 
